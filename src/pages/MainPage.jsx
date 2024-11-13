@@ -1,5 +1,11 @@
 import React from 'react'
-import { GetStartedBlock, SupportersBlock, FixTechBlock, DiscountBlock } from '../components/blocks'
+import {
+  GetStartedBlock,
+  SupportersBlock,
+  FixTechBlock,
+  DiscountBlock,
+  WorkingProcessBlock,
+} from '../components/blocks'
 
 const MainPage = () => {
   return (
@@ -8,6 +14,7 @@ const MainPage = () => {
       <SupportersBlock />
       <FixTechBlock />
       <DiscountBlock />
+      <WorkingProcessBlock />
     </div>
   )
 }
