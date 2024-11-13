@@ -1,5 +1,5 @@
 import React from 'react'
-import { GetStartedBlock, SupportersBlock, FixTechBlock } from '../components/blocks'
+import { GetStartedBlock, SupportersBlock, FixTechBlock, DiscountBlock } from '../components/blocks'
 
 const MainPage = () => {
   return (
@@ -7,6 +7,7 @@ const MainPage = () => {
       <GetStartedBlock />
       <SupportersBlock />
       <FixTechBlock />
+      <DiscountBlock />
     </div>
   )
 }
