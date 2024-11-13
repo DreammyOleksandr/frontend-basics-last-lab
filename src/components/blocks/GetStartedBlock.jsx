@@ -27,7 +27,7 @@ const GetStartedBlock = () => {
           </div>
         </div>
 
-        <div className='col-md-6 text-center h-100 d-flex flex-sm-wrap'>
+        <div className='col-md-6 text-center h-100'>
           <img src={worker} alt='Ooops...' className='img-fluid' />
         </div>
       </div>
