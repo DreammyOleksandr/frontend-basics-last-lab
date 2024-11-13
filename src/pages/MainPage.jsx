@@ -1,11 +1,12 @@
 import React from 'react'
-import { GetStartedBlock, SupportersBlock } from '../components/blocks'
+import { GetStartedBlock, SupportersBlock, FixTechBlock } from '../components/blocks'
 
 const MainPage = () => {
   return (
     <div>
       <GetStartedBlock />
       <SupportersBlock />
+      <FixTechBlock />
     </div>
   )
 }
