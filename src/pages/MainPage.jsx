@@ -5,6 +5,7 @@ import {
   FixTechBlock,
   DiscountBlock,
   WorkingProcessBlock,
+  QuestionsBlock,
 } from '../components/blocks'
 
 const MainPage = () => {
@@ -15,6 +16,7 @@ const MainPage = () => {
       <FixTechBlock />
       <DiscountBlock />
       <WorkingProcessBlock />
+      <QuestionsBlock />
     </div>
   )
 }

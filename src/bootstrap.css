@@ -8840,6 +8840,16 @@ fieldset:disabled .btn {
   background-color: rgba(var(--bs-primary-rgb), var(--bs-bg-opacity)) !important;
 }
 
+.bg-purple {
+  --bs-bg-opacity: 1;
+  background-color: darkorchid;
+}
+
+.bg-light-gray {
+  --bs-bg-opacity: 1;
+  background-color: #dedede;
+}
+
 .bg-secondary {
   --bs-bg-opacity: 1;
   background-color: rgba(var(--bs-secondary-rgb), var(--bs-bg-opacity)) !important;
