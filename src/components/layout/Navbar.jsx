@@ -1,16 +1,17 @@
 import React from 'react'
 import wrench from '../../images/wrench.png'
+import { Link } from 'react-router-dom'
 
 const Navbar = () => {
   return (
     <div>
       <nav className='navbar navbar-expand-lg bg-light' data-bs-theme='light'>
         <div className='container-fluid'>
-          <a className='navbar-brand px-5' href='/'>
+          <Link className='navbar-brand px-5' to='/'>
             <b>
               <img style={{ width: 30 }} src={wrench} alt='Ooops...' /> Repair
             </b>
-          </a>
+          </Link>
           <button
             className='navbar-toggler'
             type='button'
@@ -25,62 +26,62 @@ const Navbar = () => {
           <div className='collapse navbar-collapse' id='navbarColor03'>
             <ul className='navbar-nav ms-auto'>
               <li className='nav-item'>
-                <a className='nav-link active' href='/'>
+                <Link className='nav-link active' to='/'>
                   Home
                   <span className='visually-hidden'>(current)</span>
-                </a>
+                </Link>
               </li>
               <li className='nav-item'>
-                <a className='nav-link' href='/'>
+                <Link className='nav-link' to='/'>
                   About
-                </a>
+                </Link>
               </li>
               <li className='nav-item'>
-                <a className='nav-link' href='/'>
+                <Link className='nav-link' to='/'>
                   Service
-                </a>
+                </Link>
               </li>
               <li className='nav-item'>
-                <a className='nav-link' href='/'>
+                <Link className='nav-link' to='/'>
                   Feedback
-                </a>
+                </Link>
               </li>
               <li className='nav-item dropdown'>
-                <a
+                <Link
                   className='nav-link dropdown-toggle'
                   data-bs-toggle='dropdown'
-                  href='/'
+                  to='/'
                   role='button'
                   aria-haspopup='true'
                   aria-expanded='false'
                 >
                   Blog
-                </a>
+                </Link>
                 <div className='dropdown-menu'>
-                  <a className='dropdown-item' href='/'>
+                  <Link className='dropdown-item' to='/'>
                     Action
-                  </a>
-                  <a className='dropdown-item' href='/'>
+                  </Link>
+                  <Link className='dropdown-item' to='/'>
                     Another action
-                  </a>
-                  <a className='dropdown-item' href='/'>
+                  </Link>
+                  <Link className='dropdown-item' to='/'>
                     Something else here
-                  </a>
+                  </Link>
                   <div className='dropdown-divider'></div>
-                  <a className='dropdown-item' href='/'>
+                  <Link className='dropdown-item' to='/'>
                     Separated link
-                  </a>
+                  </Link>
                 </div>
               </li>
               <li className='nav-item'>
-                <a className='nav-link' href='/'>
+                <Link className='nav-link' to='/'>
                   Elements
-                </a>
+                </Link>
               </li>
               <li className='nav-item'>
-                <a className='nav-link' href='/'>
+                <Link className='nav-link' to='/'>
                   Contact
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
