@@ -9,7 +9,7 @@ const Collapsible = ({ name }) => {
 
   return (
     <div className='container mt-4'>
-      <div class='card'>
+      <div className='card'>
         <button
           className={`card-header rounded-1 border-0 d-flex justify-content-between w-100 ${
             isOpen ? 'bg-purple' : 'bg-light-gray'

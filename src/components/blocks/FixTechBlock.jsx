@@ -24,14 +24,14 @@ const FixTechBlock = () => {
           <div className='row text-start'>
             <div className='col-sm-5 pb-5 mx-3'>
               <h1>
-                <i class='bi bi-gem'></i>
+                <i className='bi bi-gem'></i>
               </h1>
               <br />
               <Card />
             </div>
             <div className='col-sm-5 pb-5 mx-3' style={{ backgroundColor: '#f9f8ff' }}>
               <h1>
-                <i class='bi bi-telephone'></i>
+                <i className='bi bi-telephone'></i>
               </h1>
               <br />
               <Card />
