@@ -17,21 +17,21 @@ const WorkingProcessBlock = () => {
         </p>
       </div>
       <div className='row p-5'>
-        <div className='col-sm-3 py-5'>
+        <div className='col-md-3 py-5'>
           <IconCard
             icon={
               <i className='bi bi-funnel border border-dark p-5' style={{ fontSize: '80px' }}></i>
             }
           />
         </div>
-        <div className='col-sm-3 py-5'>
+        <div className='col-md-3 py-5'>
           <IconCard
             icon={
               <i className='bi bi-copy border border-dark p-5' style={{ fontSize: '80px' }}></i>
             }
           />
         </div>
-        <div className='col-sm-3 py-5'>
+        <div className='col-md-3 py-5'>
           <IconCard
             icon={
               <i
@@ -41,7 +41,7 @@ const WorkingProcessBlock = () => {
             }
           />
         </div>
-        <div className='col-sm-3 py-5'>
+        <div className='col-md-3 py-5'>
           <IconCard
             icon={
               <i
