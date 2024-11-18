@@ -26,18 +26,30 @@ const QuestionsBlock = () => {
       <br />
       <br />
       <br />
-      <div className='d-flex justify-content-evenly my-5'>
-        <div className='col-sm-3'>
-          <ProgressBar percentage={webDesignPercentage} name={'Web Design'} />
+      <div className='row justify-content-evenly'>
+        <div className='col-md-3 my-5' style={{ width: '200px', height: '200px' }}>
+          <ProgressBar percentage={webDesignPercentage} />
+          <div className='pt-4'>
+            <h6>Web Design</h6>
+          </div>
         </div>
-        <div className='col-sm-3'>
-          <ProgressBar percentage={uiPercentage} name={'UI/UX'} />
+        <div className='col-md-3 my-5' style={{ width: '200px' }}>
+          <ProgressBar percentage={uiPercentage} />
+          <div className='pt-4'>
+            <h6>UI/UX</h6>
+          </div>
         </div>
-        <div className='col-sm-3'>
-          <ProgressBar percentage={mobileAppPercentage} name={'Mobile App'} />
+        <div className='col-md-3 my-5' style={{ width: '200px' }}>
+          <ProgressBar percentage={mobileAppPercentage} />
+          <div className='pt-4'>
+            <h6>Mobile App</h6>
+          </div>
         </div>
-        <div className='col-sm-3'>
-          <ProgressBar percentage={webDevelopmentPercentage} name={'Web Development'} />
+        <div className='col-md-3 my-5' style={{ width: '200px' }}>
+          <ProgressBar percentage={webDevelopmentPercentage} />
+          <div className='pt-4'>
+            <h6>Web Development</h6>
+          </div>
         </div>
       </div>
     </div>

@@ -2,9 +2,9 @@ import React from 'react'
 import { CircularProgressbar, buildStyles } from 'react-circular-progressbar'
 import 'react-circular-progressbar/dist/styles.css'
 
-const ProgressBar = ({ percentage, name }) => {
+const ProgressBar = ({ percentage }) => {
   return (
-    <div className='d-flex flex-column'>
+    <div>
       <div style={{ width: 200, height: 200 }}>
         <CircularProgressbar
           value={percentage}
@@ -15,9 +15,6 @@ const ProgressBar = ({ percentage, name }) => {
             textColor: 'black',
           })}
         />
-      </div>
-      <div className='pt-4 me-auto'>
-        <h6>{name}</h6>
       </div>
     </div>
   )
